@@ -17,7 +17,7 @@ export default function Detalle() {
     <article className="detalle">
       <Link to="/">← Volver</Link>
       <h2>{serie.name}</h2>
-      {serie.image && <img src={serie.image.original} alt={`Póster de ${serie.name}`} />}
+     {serie.image && <img src={serie.image.medium} alt={`Póster de ${serie.name}`} />}
       <p>{resumen}</p>
       <p>Géneros: {serie.genres.join(", ") || "s/d"}</p>
       <p>Puntaje: {serie.rating?.average ?? "s/d"}</p>
