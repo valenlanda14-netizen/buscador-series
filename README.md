@@ -1,4 +1,4 @@
-# Buscador de Series
+# Confluencia Series
 
 React app to search TV shows using the public TVMaze API, view details and save favorites.
 
